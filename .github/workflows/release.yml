@@ -1,6 +1,7 @@
 name: Helm Chart Release
 
 on:
+  workflow_dispatch:
   release:
     types: [published]
 
